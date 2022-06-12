@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/first push', function () {
+Route::get('/first-push', function () {
     return view('welcomes');
 });
